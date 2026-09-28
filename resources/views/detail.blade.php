@@ -1,0 +1,4 @@
+@extends('layouts.app')
+@section('content')
+<main><section class="page-hero"><div class="container"><p class="breadcrumb"><a href="/">Beranda</a> &nbsp;/&nbsp; <a href="/layanan">{{ $tag }}</a> &nbsp;/&nbsp; {{ $title }}</p><span class="eyebrow"><i></i> {{ $tag }}</span><h1>{{ $title }}</h1><p>{{ $description }}</p></div></section><section class="section-cream detail-area"><article class="detail-card"><div class="detail-art">⌂</div><div><span class="eyebrow dark"><i></i> Informasi Desa</span><h2>{{ $title }}</h2><p>{{ $description }}</p><p>Untuk memperoleh informasi lebih lanjut, silakan menghubungi Kantor Kepala Desa Salam pada hari kerja, Senin sampai Kamis pukul 08.00–14.00 WIB dan Jumat pukul 08.00–11.00 WIB.</p><a class="button button-green" href="/#kontak">Hubungi Pemerintah Desa →</a></div></article></section></main>
+@endsection
